@@ -9,7 +9,7 @@ export const data = [
     name: "Firebase, React, OAth 2.0, LeafletJS, Tailwind",
     image: willow,
     github: "https://github.com/LeonBuller/willow-marketplace",
-    live: "https://willow-marketplace-git-master-leonbuller.vercel.app/",
+    live: "https://willow-marketplace.vercel.app/",
   },
 
   {

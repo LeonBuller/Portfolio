@@ -35,12 +35,12 @@ const Projects = () => {
                   {item.name}
                 </span>
                 <div className="pt-8 text-center">
-                  <a href={item.github}>
+                  <a href={item.live}>
                     <button className="text-gray-700 text-lg font-bold px-4 py-3 bg-white rounded-lg mr-2">
                       Demo
                     </button>
                   </a>
-                  <a href={item.live}>
+                  <a href={item.github}>
                     <button className="text-gray-700 text-lg font-bold px-4 py-3 bg-white rounded-lg">
                       Code
                     </button>
