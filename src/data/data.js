@@ -6,7 +6,7 @@ import willow from "../assets/projects/willow.png";
 export const data = [
   {
     id: 1,
-    name: "Willow Marketplace",
+    name: "Firebase, React, OAth 2.0, LeafletJS, Tailwind",
     image: willow,
     github: "https://github.com/LeonBuller/willow-marketplace",
     live: "https://willow-marketplace.vercel.app/",
@@ -14,21 +14,21 @@ export const data = [
 
   {
     id: 2,
-    name: "Cryptoboss",
+    name: "React, Firebase, Coin Gecko API, Tailwind",
     image: cryptoboss,
     github: "https://github.com/LeonBuller/Cryptoboss",
     live: "https://cryptoboss.vercel.app/",
   },
   {
     id: 3,
-    name: "datafly",
+    name: "React, Tailwind",
     image: datafy,
     github: "https://github.com/LeonBuller/Datafy",
     live: "https://datafy.vercel.app/",
   },
   {
     id: 4,
-    name: "Claud.",
+    name: "React, Tailwind",
     image: claud,
     github: "https://github.com/LeonBuller/CLAUD.",
     live: "https://claud.vercel.app/",

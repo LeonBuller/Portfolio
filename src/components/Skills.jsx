@@ -44,6 +44,11 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
+            <img className="w-20 mx-auto mt-1" src={Tailwind} alt="HTML icon" />
+            <p className="my-1 py-3">Tailwind CSS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] ">
             <img
               className="w-20 mx-auto mt-1"
               src={JavaScript}
@@ -70,11 +75,6 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] ">
             <img className="w-20 mx-auto mt-1" src={Node} alt="HTML icon" />
             <p className="my-1 py-3">NodeJS</p>
-          </div>
-
-          <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={Tailwind} alt="HTML icon" />
-            <p className="my-1 py-3">Tailwind CSS</p>
           </div>
         </div>
       </div>
