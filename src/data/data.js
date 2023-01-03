@@ -2,6 +2,7 @@ import claud from "../assets/projects/claud.png";
 import cryptoboss from "../assets/projects/cryptoboss.png";
 import datafy from "../assets/projects/datafy.png";
 import willow from "../assets/projects/willow.png";
+import qoals from "../assets/projects/qoals.png";
 
 export const data = [
   {
@@ -32,5 +33,12 @@ export const data = [
     image: claud,
     github: "https://github.com/LeonBuller/CLAUD.",
     live: "https://claud.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "React, Tailwind",
+    image: qoals,
+    github: "https://github.com/LeonBuller/qoals",
+    live: "https://qoals.vercel.app/",
   },
 ];
