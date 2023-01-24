@@ -9,6 +9,8 @@ import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import ReactN from "../assets/reactn.png";
+import Jest from "../assets/jest.png";
 
 const Skills = () => {
   return (
@@ -29,22 +31,34 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={ReactImg} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto mt-1"
+              src={ReactImg}
+              alt="React icon"
+            />
             <p className="my-1 py-3">React</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={FireBase} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto mt-1"
+              src={FireBase}
+              alt="Firebase icon"
+            />
             <p className="my-1 py-3">Firebase</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={Mongo} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-1" src={Mongo} alt="MongoDB icon" />
             <p className="my-1 py-3">MongoDB</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={Tailwind} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto mt-1"
+              src={Tailwind}
+              alt="Tailwind CSS icon"
+            />
             <p className="my-1 py-3">Tailwind CSS</p>
           </div>
 
@@ -52,7 +66,7 @@ const Skills = () => {
             <img
               className="w-20 mx-auto mt-1"
               src={JavaScript}
-              alt="HTML icon"
+              alt="Javascript icon"
             />
             <p className="my-1 py-3">Javascript</p>
           </div>
@@ -63,18 +77,30 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-1" src={CSS} alt="CSS icon" />
             <p className="my-1 py-3">CSS</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={GitHub} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-1" src={GitHub} alt="Github icon" />
             <p className="my-1 py-3">Github</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] ">
-            <img className="w-20 mx-auto mt-1" src={Node} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-1" src={Node} alt="NodeJS icon" />
             <p className="my-1 py-3">NodeJS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] ">
+            <img
+              className="w-20 mx-auto mt-1"
+              src={ReactN}
+              alt="React Native"
+            />
+            <p className=" py-3">React Native</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] ">
+            <img className="w-20 mx-auto mt-1" src={Jest} alt="Jest icon" />
+            <p className="my-1 py-3">Jest</p>
           </div>
         </div>
       </div>
